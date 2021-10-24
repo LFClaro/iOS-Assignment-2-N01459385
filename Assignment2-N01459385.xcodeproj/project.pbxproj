@@ -13,6 +13,11 @@
 		701765BE271093EB0082425D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701765BC271093EB0082425D /* Main.storyboard */; };
 		701765C0271093EE0082425D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701765BF271093EE0082425D /* Assets.xcassets */; };
 		701765C3271093EE0082425D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701765C1271093EE0082425D /* LaunchScreen.storyboard */; };
+		709A94A927250C8400C2BF2F /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94A827250C8400C2BF2F /* ProductModel.swift */; };
+		709A94AB27250D1F00C2BF2F /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94AA27250D1F00C2BF2F /* ProductManager.swift */; };
+		709A94AE27250E9000C2BF2F /* myCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94AD27250E9000C2BF2F /* myCustomButton.swift */; };
+		709A94B42725277600C2BF2F /* myCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94B32725277600C2BF2F /* myCustomTableViewCell.swift */; };
+		709A94B6272533C700C2BF2F /* CashierModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94B5272533C700C2BF2F /* CashierModel.swift */; };
 		70E405852724E2E8003A3DE3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 70E405842724E2E7003A3DE3 /* .gitignore */; };
 		70E405882724E33C003A3DE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 70E405872724E33C003A3DE3 /* README.md */; };
 /* End PBXBuildFile section */
@@ -26,6 +31,11 @@
 		701765BF271093EE0082425D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		701765C2271093EE0082425D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		701765C4271093EF0082425D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709A94A827250C8400C2BF2F /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		709A94AA27250D1F00C2BF2F /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		709A94AD27250E9000C2BF2F /* myCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCustomButton.swift; sourceTree = "<group>"; };
+		709A94B32725277600C2BF2F /* myCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCustomTableViewCell.swift; sourceTree = "<group>"; };
+		709A94B5272533C700C2BF2F /* CashierModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierModel.swift; sourceTree = "<group>"; };
 		70E405842724E2E7003A3DE3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		70E405872724E33C003A3DE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,13 +74,42 @@
 			children = (
 				701765B6271093EB0082425D /* AppDelegate.swift */,
 				701765B8271093EB0082425D /* SceneDelegate.swift */,
-				701765BA271093EB0082425D /* ViewController.swift */,
 				701765BC271093EB0082425D /* Main.storyboard */,
 				701765BF271093EE0082425D /* Assets.xcassets */,
 				701765C1271093EE0082425D /* LaunchScreen.storyboard */,
 				701765C4271093EF0082425D /* Info.plist */,
+				709A94AC27250E6500C2BF2F /* Model */,
+				709A94AF27250EA200C2BF2F /* View */,
+				709A94B027250EB700C2BF2F /* Controller */,
 			);
 			path = "Assignment2-N01459385";
+			sourceTree = "<group>";
+		};
+		709A94AC27250E6500C2BF2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				709A94A827250C8400C2BF2F /* ProductModel.swift */,
+				709A94AA27250D1F00C2BF2F /* ProductManager.swift */,
+				709A94B5272533C700C2BF2F /* CashierModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		709A94AF27250EA200C2BF2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				709A94AD27250E9000C2BF2F /* myCustomButton.swift */,
+				709A94B32725277600C2BF2F /* myCustomTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		709A94B027250EB700C2BF2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				701765BA271093EB0082425D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709A94AE27250E9000C2BF2F /* myCustomButton.swift in Sources */,
 				701765BB271093EB0082425D /* ViewController.swift in Sources */,
+				709A94AB27250D1F00C2BF2F /* ProductManager.swift in Sources */,
+				709A94B42725277600C2BF2F /* myCustomTableViewCell.swift in Sources */,
 				701765B7271093EB0082425D /* AppDelegate.swift in Sources */,
+				709A94B6272533C700C2BF2F /* CashierModel.swift in Sources */,
 				701765B9271093EB0082425D /* SceneDelegate.swift in Sources */,
+				709A94A927250C8400C2BF2F /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +341,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W55N9X4F39;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Assignment2-N01459385/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Assignment 02";
@@ -325,6 +370,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W55N9X4F39;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Assignment2-N01459385/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Assignment 02";
