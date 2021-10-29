@@ -18,6 +18,12 @@
 		709A94AE27250E9000C2BF2F /* myCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94AD27250E9000C2BF2F /* myCustomButton.swift */; };
 		709A94B42725277600C2BF2F /* myCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94B32725277600C2BF2F /* myCustomTableViewCell.swift */; };
 		709A94B6272533C700C2BF2F /* CashierModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94B5272533C700C2BF2F /* CashierModel.swift */; };
+		709A94B8272555F800C2BF2F /* historyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94B7272555F800C2BF2F /* historyTableViewController.swift */; };
+		709A94BA2725561400C2BF2F /* managerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94B92725561400C2BF2F /* managerViewController.swift */; };
+		709A94BC2725562400C2BF2F /* restockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A94BB2725562400C2BF2F /* restockViewController.swift */; };
+		70D4EF6D2728DA41001B24AE /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D4EF6C2728DA41001B24AE /* HistoryModel.swift */; };
+		70D4EF6F2728F2B9001B24AE /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D4EF6E2728F2B9001B24AE /* HistoryManager.swift */; };
+		70D4EF7327290C37001B24AE /* historyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D4EF7227290C37001B24AE /* historyDetailViewController.swift */; };
 		70E405852724E2E8003A3DE3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 70E405842724E2E7003A3DE3 /* .gitignore */; };
 		70E405882724E33C003A3DE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 70E405872724E33C003A3DE3 /* README.md */; };
 /* End PBXBuildFile section */
@@ -36,6 +42,12 @@
 		709A94AD27250E9000C2BF2F /* myCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCustomButton.swift; sourceTree = "<group>"; };
 		709A94B32725277600C2BF2F /* myCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCustomTableViewCell.swift; sourceTree = "<group>"; };
 		709A94B5272533C700C2BF2F /* CashierModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierModel.swift; sourceTree = "<group>"; };
+		709A94B7272555F800C2BF2F /* historyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyTableViewController.swift; sourceTree = "<group>"; };
+		709A94B92725561400C2BF2F /* managerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = managerViewController.swift; sourceTree = "<group>"; };
+		709A94BB2725562400C2BF2F /* restockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restockViewController.swift; sourceTree = "<group>"; };
+		70D4EF6C2728DA41001B24AE /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		70D4EF6E2728F2B9001B24AE /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		70D4EF7227290C37001B24AE /* historyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historyDetailViewController.swift; sourceTree = "<group>"; };
 		70E405842724E2E7003A3DE3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		70E405872724E33C003A3DE3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +103,8 @@
 				709A94A827250C8400C2BF2F /* ProductModel.swift */,
 				709A94AA27250D1F00C2BF2F /* ProductManager.swift */,
 				709A94B5272533C700C2BF2F /* CashierModel.swift */,
+				70D4EF6C2728DA41001B24AE /* HistoryModel.swift */,
+				70D4EF6E2728F2B9001B24AE /* HistoryManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -108,6 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				701765BA271093EB0082425D /* ViewController.swift */,
+				709A94B7272555F800C2BF2F /* historyTableViewController.swift */,
+				709A94B92725561400C2BF2F /* managerViewController.swift */,
+				709A94BB2725562400C2BF2F /* restockViewController.swift */,
+				70D4EF7227290C37001B24AE /* historyDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,9 +207,15 @@
 				701765BB271093EB0082425D /* ViewController.swift in Sources */,
 				709A94AB27250D1F00C2BF2F /* ProductManager.swift in Sources */,
 				709A94B42725277600C2BF2F /* myCustomTableViewCell.swift in Sources */,
+				709A94BC2725562400C2BF2F /* restockViewController.swift in Sources */,
+				709A94B8272555F800C2BF2F /* historyTableViewController.swift in Sources */,
+				70D4EF6F2728F2B9001B24AE /* HistoryManager.swift in Sources */,
 				701765B7271093EB0082425D /* AppDelegate.swift in Sources */,
+				709A94BA2725561400C2BF2F /* managerViewController.swift in Sources */,
+				70D4EF6D2728DA41001B24AE /* HistoryModel.swift in Sources */,
 				709A94B6272533C700C2BF2F /* CashierModel.swift in Sources */,
 				701765B9271093EB0082425D /* SceneDelegate.swift in Sources */,
+				70D4EF7327290C37001B24AE /* historyDetailViewController.swift in Sources */,
 				709A94A927250C8400C2BF2F /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
